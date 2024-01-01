@@ -10,6 +10,9 @@ import nodejs from "./asset 9.svg";
 import express from "./asset 10.png";
 import tailwind from "./tailwindcss-icon-svgrepo-com.svg";
 import ts from "./typescript-official-svgrepo-com.svg";
+import passwordGenerator from "./chrome_eCWipf5r8K.png";
+import appleclone from "./chrome_6TpYeFvshQ.png";
+import testimonial from "./chrome_8UdpDRwqrt.png";
 
 export {
   myimage,
@@ -24,4 +27,7 @@ export {
   express,
   tailwind,
   ts,
+  passwordGenerator,
+  appleclone,
+  testimonial,
 };

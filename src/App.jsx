@@ -2,6 +2,7 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Skills from "./components/Skills";
+import Projects from "./components/Projects";
 
 function App() {
   return (
@@ -12,8 +13,12 @@ function App() {
       <div className=" w-full pb-44">
         <Hero></Hero>
       </div>
-      <div className="w-full bg-[#1C1C27]">
+      <div className="w-full bg-[#1C1C27] clip-path2 pb-44 bg-mygradient relative z-20">
         <Skills></Skills>
+      </div>
+
+      <div className="text-white bg-[#1C1C27] bg-mygradient relative w-full z-10  pb-[100px] -top-5 clip-path3">
+        <Projects></Projects>
       </div>
     </div>
   );

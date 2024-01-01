@@ -2,6 +2,7 @@ import { FaBars } from "react-icons/fa6";
 import { navlinks } from "../constants";
 import { useContext } from "react";
 import { AppProvider } from "../context/AppProvider";
+import { Link } from "react-router-dom";
 export default function Navbar() {
   const { show, setShow } = useContext(AppProvider);
 
@@ -19,7 +20,7 @@ export default function Navbar() {
       </button>
       <ul
         className={`absolute flex flex-col items-start top-12 w-screen -left-12 bg-[#191924]/60 rounded-b-2xl px-[40px] pt-[12px] pb-[24px] pl-[49px] ${
-          show ? "opacity-0" : "opacity-100"
+          show ? "opacity-0 invisible" : "opacity-100"
         } transition-all shadow-lg  xl:hidden`}
       >
         {navlinks.map((el, indx) => {
@@ -32,9 +33,11 @@ export default function Navbar() {
             </li>
           );
         })}
-        <button className="px-[16px] py-[10px] text-white font-poppins text-[14px] bg-[#854ce6] rounded-[20px]">
-          Github Profile
-        </button>
+        <Link to="https://github.com/Shivgitcode">
+          <button className="px-[16px] py-[10px] text-white font-poppins text-[14px] bg-[#854ce6] rounded-[20px]">
+            Github Profile
+          </button>
+        </Link>
       </ul>
 
       <ul

@@ -2,7 +2,7 @@ import { skills } from "../constants";
 import SkillCard from "./SkillCard";
 export default function Skills() {
   return (
-    <div className="flex flex-col items-center justify-evenly">
+    <div className="flex flex-col items-center justify-evenly ">
       <h1 className="text-[32px] text-center mt-[12px] text-[#f2f3f4] font-semibold font-poppins ">
         Skills
       </h1>

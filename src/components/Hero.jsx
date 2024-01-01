@@ -9,7 +9,7 @@ export default function Hero() {
       <div className="absolute -top-16 lg:-right-24">
         <HeroBgAnimation></HeroBgAnimation>
       </div>
-      <div className="w-[300px] h-[300px] lg:w-[400px] lg:h-[400px] mb-[30px] lg:flex-1 lg:z-10">
+      <div className="w-[300px] h-[300px] z-10 lg:w-[400px] lg:h-[400px] mb-[30px] lg:flex-1 lg:z-10">
         <img
           src={myimage}
           alt=""

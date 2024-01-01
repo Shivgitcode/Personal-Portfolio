@@ -8,6 +8,12 @@
   .clip-path {
     clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 70% 95%, 0px 100%);
   }
+  .clip-path2 {
+    clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 30% 98%, 0px 100%);
+  }
+  .clip-path3 {
+    clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 100% 98%, 0px 100%);
+  }
 }
 
 @layer components {
@@ -25,5 +31,12 @@
   }
   .bg-shadow {
     box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+  }
+
+  .bg-shadow2 {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 12px 4px;
+  }
+  .bg-shadow3 {
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 50px 4px;
   }
 }
