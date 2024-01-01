@@ -1,6 +1,8 @@
+import { useContext } from "react";
 import { projects } from "../constants";
 import Project from "./Project";
 import ProjectDetails from "./ProjectDetails";
+import { AppProvider } from "../context/AppProvider";
 export default function Projects() {
   return (
     <section className=" px-[17px] flex flex-col justify-evenly items-center w-full h-full">
@@ -13,7 +15,7 @@ export default function Projects() {
       </p>
       <div className="flex flex-col items-center justify-between w-full gap-[18px]">
         {projects.map((el, idx) => {
-          return <Project key={el.id} el={el}></Project>;
+          return <Project key={idx} el={el} idx={idx}></Project>;
         })}
       </div>
     </section>

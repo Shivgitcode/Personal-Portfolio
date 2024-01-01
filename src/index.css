@@ -39,4 +39,7 @@
   .bg-shadow3 {
     box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 50px 4px;
   }
+  .bg-shadow4 {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 10px 0px;
+  }
 }
