@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  height: 100vh;
+}
+
 @layer utilities {
   .clip-path {
     clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 70% 95%, 0px 100%);
@@ -28,6 +32,7 @@
         rgba(0, 70, 209, 0) 50%,
         rgba(0, 70, 209, 0.15) 100%
       );
+    background-size: 100vw 100vh contain;
   }
   .bg-shadow {
     box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;

@@ -3,6 +3,7 @@ import { navlinks } from "../constants";
 import { useContext } from "react";
 import { AppProvider } from "../context/AppProvider";
 import { Link } from "react-router-dom";
+import { Link as Link2 } from "react-scroll";
 export default function Navbar() {
   const { show, setShow } = useContext(AppProvider);
 
@@ -25,12 +26,14 @@ export default function Navbar() {
       >
         {navlinks.map((el, indx) => {
           return (
-            <li
-              key={indx}
-              className="text-[16px] font-poppins font-semibold text-[#f2f3f4] mb-[16px] cursor-pointer hover:text-[#854ce6] transition-all"
-            >
-              {el}
-            </li>
+            <a href={`#${el}`}>
+              <li
+                key={indx}
+                className="text-[16px] font-poppins font-semibold text-[#f2f3f4] mb-[16px] cursor-pointer hover:text-[#854ce6] transition-all"
+              >
+                {el}
+              </li>
+            </a>
           );
         })}
         <Link to="https://github.com/Shivgitcode">

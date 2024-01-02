@@ -6,7 +6,7 @@ export default function EducationCard({ el }) {
   const { showDesc, setShowDesc } = useContext(AppProvider);
   return (
     <div className="px-[16px] py-[12px] relative flex gap-[12px]">
-      <div className="flex flex-col justify-evenly items-start p-[10px] rounded-[10px] border-[2px] border-[#6C63FF] max-w-[300px] gap-[10px] group bg-shadow self-start">
+      <div className="flex flex-col justify-evenly items-start p-[10px] rounded-[10px] border-[2px] border-[#6C63FF] max-w-[300px] gap-[10px] group bg-shadow self-start hover:-translate-y-2 hover:shadow-none transition-all duration-300">
         <div className="flex flex-row justify-center items-center gap-[12px]">
           <div className="max-w-[53px] h-fit">
             <img
@@ -38,8 +38,8 @@ export default function EducationCard({ el }) {
           </p>
         </div>
       </div>
-      <div className=" flex flex-col justify-start items-center">
-        <span className=" p-[4px] rounded-[50%] border-[2px] border-[#854ce6] my-[11px]"></span>
+      <div className=" flex relative -top-2 flex-col justify-start items-center">
+        <span className=" p-[4px] rounded-[50%] border-[2px] border-fuchsia-700 my-[11px]"></span>
         <div className=" min-h-[200px] w-[2px] bg-[#854ce6] z-[15] top-0 right-0 flex-1 "></div>
       </div>
     </div>

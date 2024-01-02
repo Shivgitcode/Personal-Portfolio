@@ -16,6 +16,10 @@ import testimonial from "./chrome_8UdpDRwqrt.png";
 import college from "./university.png";
 import highSchool from "./10thschool.jpg";
 import school from "./12thschool-removebg-preview.jpg";
+import twitter from "./asset 22.svg";
+import linkedin from "./asset 23.svg";
+import instagram from "./asset 24.svg";
+import { FaInstagram } from "react-icons/fa";
 
 export {
   myimage,
@@ -36,4 +40,7 @@ export {
   college,
   highSchool,
   school,
+  twitter,
+  instagram,
+  linkedin,
 };

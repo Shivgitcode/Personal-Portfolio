@@ -5,7 +5,10 @@ import ProjectDetails from "./ProjectDetails";
 import { AppProvider } from "../context/AppProvider";
 export default function Projects() {
   return (
-    <section className=" px-[17px] flex flex-col justify-evenly items-center w-full h-full lg:w-[60%] mx-auto lg:pb-[100px] lg:pt-[10px]">
+    <section
+      className=" px-[17px] flex flex-col justify-evenly items-center w-full h-full lg:w-[60%] mx-auto lg:pb-[100px] lg:pt-[10px]"
+      id="Projects"
+    >
       <h1 className="font-poppins font-semibold text-[32px] lg:text-[42px] w-full text-center mt-[24px] mb-[24px]">
         Projects
       </h1>

@@ -16,6 +16,9 @@ import {
   college,
   highSchool,
   school,
+  instagram,
+  linkedin,
+  twitter,
 } from "../assets";
 
 export const navlinks = ["About", "Skills", "Projects", "Education"];
@@ -131,4 +134,11 @@ export const education = [
     Grade: "88%",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim atque omnis porro cumque optio repellendus minima, voluptas impedit provident iusto beatae debitis aut rem! Aliquam soluta voluptatibus eveniet corporis distinctio Cupiditate, ducimus. Magni, eius. Laboriosam expedita sunt ipsam aliquam exercitationem dolor molestiae quis dolores fugiat! Maiores est iusto neque, deleniti iure tempore tenetur cupiditate deserunt Dolorem atque dolor optio odio",
   },
+];
+
+export const socialmedia = [
+  "https://www.instagram.com/shiv_cr710/",
+  "https://github.com/Shivgitcode",
+  "https://www.linkedin.com/in/shivansh-aggarwal-a363a4235/",
+  "https://twitter.com/toji2604",
 ];
