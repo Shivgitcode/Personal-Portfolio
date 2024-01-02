@@ -30,7 +30,9 @@ function App() {
       </div>
       <div
         className={`${
-          display ? "fixed w-screen h-screen bg-black/80 top-0 z-50" : "hidden"
+          display
+            ? "fixed w-screen h-screen bg-black/80 top-0 z-50 overflow-y-scroll"
+            : "hidden"
         } `}
       >
         <ProjectDetails></ProjectDetails>
