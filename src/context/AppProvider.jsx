@@ -10,6 +10,7 @@ export function AppProviderData({ children }) {
   const [display, setDisplay] = useState(false);
   const [index, setIndex] = useState(0);
   const project = projects;
+  const [showDesc, setShowDesc] = useState(true);
 
   function handleCard(idx) {
     console.log(idx);
@@ -36,6 +37,8 @@ export function AppProviderData({ children }) {
     project,
     setIndex,
     index,
+    showDesc,
+    setShowDesc,
   };
 
   return <AppProvider.Provider value={value}>{children}</AppProvider.Provider>;

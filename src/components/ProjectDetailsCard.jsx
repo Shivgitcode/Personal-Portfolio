@@ -7,7 +7,7 @@ export default function ProjectDetailsCard({ el }) {
   const { handleCard } = useContext(AppProvider);
 
   return (
-    <div className=" absolute top-0 max-w-[610px] min-h-[811px] px-[20px] py-[20px] mx-[12px] my-[50px] bg-[#171721] rounded-[10px] flex flex-col items-start justify-evenly gap-[10px] bg-shadow2">
+    <div className=" absolute top-0 max-w-[610px] min-h-[811px] px-[20px] py-[20px] mx-[12px] my-[50px] bg-[#171721] rounded-[10px] flex flex-col items-start justify-evenly gap-[10px] bg-shadow2 lg:left-[35%]">
       <div
         className="w-fit ml-auto cursor-pointer flex-grow-0"
         onClick={handleCard}

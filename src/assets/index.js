@@ -13,6 +13,9 @@ import ts from "./typescript-official-svgrepo-com.svg";
 import passwordGenerator from "./chrome_eCWipf5r8K.png";
 import appleclone from "./chrome_6TpYeFvshQ.png";
 import testimonial from "./chrome_8UdpDRwqrt.png";
+import college from "./university.png";
+import highSchool from "./10thschool.jpg";
+import school from "./12thschool-removebg-preview.jpg";
 
 export {
   myimage,
@@ -30,4 +33,7 @@ export {
   passwordGenerator,
   appleclone,
   testimonial,
+  college,
+  highSchool,
+  school,
 };

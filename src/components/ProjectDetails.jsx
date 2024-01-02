@@ -8,7 +8,7 @@ export default function ProjectDetails() {
   const { project, index } = useContext(AppProvider);
   const p1 = project[index];
   return (
-    <div>
+    <div className="w-full h-full">
       <ProjectDetailsCard key={index} el={p1}></ProjectDetailsCard>
     </div>
   );

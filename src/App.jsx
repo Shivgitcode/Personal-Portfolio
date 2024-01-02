@@ -6,6 +6,7 @@ import Projects from "./components/Projects";
 import ProjectDetails from "./components/ProjectDetails";
 import { useContext } from "react";
 import { AppProvider } from "./context/AppProvider";
+import Education from "./components/Education";
 
 function App() {
   const { display, handleCard } = useContext(AppProvider);
@@ -31,6 +32,10 @@ function App() {
         } `}
       >
         <ProjectDetails></ProjectDetails>
+      </div>
+
+      <div className="bg-[#1c1c27] relative w-full z-[5] -top-[52px] h-full bg-mygradient">
+        <Education></Education>
       </div>
     </div>
   );
