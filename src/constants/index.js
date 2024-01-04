@@ -107,6 +107,42 @@ export const projects = [
     projectLink: "https://password-generator-woad-zeta.vercel.app/",
     github: "https://github.com/Shivgitcode/passwordGenerator.git",
   },
+  {
+    id: 3,
+    title: "Password Generator",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim atque omnis porro cumque optio repellendus minima, voluptas impedit provident iusto beatae debitis aut rem! Aliquam soluta voluptatibus eveniet corporis distinctio Cupiditate, ducimus. Magni, eius. Laboriosam expedita sunt ipsam aliquam exercitationem dolor molestiae quis dolores fugiat! Maiores est iusto neque, deleniti iure tempore tenetur cupiditate deserunt Dolorem atque dolor optio odio",
+    image: passwordGenerator,
+    tags: ["HTML5", "CSS3", "JavaScript"],
+    projectLink: "https://password-generator-woad-zeta.vercel.app/",
+    github: "https://github.com/Shivgitcode/passwordGenerator.git",
+  },
+  {
+    id: 3,
+    title: "Password Generator",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim atque omnis porro cumque optio repellendus minima, voluptas impedit provident iusto beatae debitis aut rem! Aliquam soluta voluptatibus eveniet corporis distinctio Cupiditate, ducimus. Magni, eius. Laboriosam expedita sunt ipsam aliquam exercitationem dolor molestiae quis dolores fugiat! Maiores est iusto neque, deleniti iure tempore tenetur cupiditate deserunt Dolorem atque dolor optio odio",
+    image: passwordGenerator,
+    tags: ["HTML5", "CSS3", "JavaScript"],
+    projectLink: "https://password-generator-woad-zeta.vercel.app/",
+    github: "https://github.com/Shivgitcode/passwordGenerator.git",
+  },
+  {
+    id: 3,
+    title: "Password Generator",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim atque omnis porro cumque optio repellendus minima, voluptas impedit provident iusto beatae debitis aut rem! Aliquam soluta voluptatibus eveniet corporis distinctio Cupiditate, ducimus. Magni, eius. Laboriosam expedita sunt ipsam aliquam exercitationem dolor molestiae quis dolores fugiat! Maiores est iusto neque, deleniti iure tempore tenetur cupiditate deserunt Dolorem atque dolor optio odio",
+    image: passwordGenerator,
+    tags: ["HTML5", "CSS3", "JavaScript"],
+    projectLink: "https://password-generator-woad-zeta.vercel.app/",
+    github: "https://github.com/Shivgitcode/passwordGenerator.git",
+  },
+  {
+    id: 3,
+    title: "Password Generator",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim atque omnis porro cumque optio repellendus minima, voluptas impedit provident iusto beatae debitis aut rem! Aliquam soluta voluptatibus eveniet corporis distinctio Cupiditate, ducimus. Magni, eius. Laboriosam expedita sunt ipsam aliquam exercitationem dolor molestiae quis dolores fugiat! Maiores est iusto neque, deleniti iure tempore tenetur cupiditate deserunt Dolorem atque dolor optio odio",
+    image: passwordGenerator,
+    tags: ["HTML5", "CSS3", "JavaScript"],
+    projectLink: "https://password-generator-woad-zeta.vercel.app/",
+    github: "https://github.com/Shivgitcode/passwordGenerator.git",
+  },
 ];
 
 export const education = [

@@ -16,7 +16,7 @@ export default function Projects() {
         I have worked on a wide range of projects. From web apps to android
         apps. Here are some of my projects.
       </p>
-      <div className="flex flex-col items-center justify-between w-full gap-[18px] lg:flex-row">
+      <div className="flex flex-col  justify-center items-center w-full gap-[18px] lg:flex-row lg:flex-wrap">
         {projects.map((el, idx) => {
           return <Project key={idx} el={el} idx={idx}></Project>;
         })}

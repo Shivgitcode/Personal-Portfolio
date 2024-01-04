@@ -7,7 +7,7 @@ export default function Project({ el, idx }) {
 
   return (
     <div
-      className="max-w-[330px] px-[20px] py-[26px] bg-[#171721] rounded-[10px] flex flex-col items-start gap-[14px] hover:-translate-y-2 hover:bg-shadow3 transition-all duration-300 bg-shadow2"
+      className="max-w-[330px] px-[20px] py-[26px] bg-[#171721] rounded-[10px] flex flex-col items-start gap-[14px] hover:-translate-y-2 hover:bg-shadow3 transition-all duration-300 bg-shadow2 min-h-[432px]"
       onClick={() => handleCard(idx)}
     >
       <div className="w-full h-full">
