@@ -14,7 +14,7 @@ function App() {
   const { display, handleCard } = useContext(AppProvider);
 
   return (
-    <div className="w-screen h-screen box-border p-0 m-0 relative bg-[#191924] overflow-x-hidden scroll-smooth">
+    <div className="w-screen h-screen box-border p-0 m-0 relative bg-[#191924] overflow-x-hidden scroll-smooth scrollbar  scrollbar-thumb-[#f2f3f4]/50  scrollbar-thumb-rounded-lg scrollbar-h-3 scrollbar-w-1">
       <div className="w-full bg-[#191924] fixed z-30">
         <Navbar></Navbar>
       </div>
