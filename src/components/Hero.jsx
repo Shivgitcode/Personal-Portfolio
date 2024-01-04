@@ -5,7 +5,10 @@ import Typed from "react-typed";
 
 export default function Hero() {
   return (
-    <section className="flex flex-col w-full justify-evenly items-center relative top-28 px-[16px] lg:flex-row-reverse lg:item lg:w-[60%] mx-auto lg:justify-between lg:px-[0px] lg:my-[35px] ">
+    <section
+      className="flex flex-col w-full justify-evenly items-center relative top-28 px-[16px] lg:flex-row-reverse lg:item lg:w-[60%] mx-auto lg:justify-between lg:px-[0px] lg:my-[35px] "
+      id="About"
+    >
       <div className="absolute -top-16 lg:-right-24">
         <HeroBgAnimation></HeroBgAnimation>
       </div>

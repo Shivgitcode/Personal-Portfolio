@@ -124,7 +124,7 @@ export const education = [
     degree: "CBSE(XII),Science with Computer",
     date: "Apr 2020 - Apr 2021",
     Grade: "82.6%",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim atque omnis porro cumque optio repellendus minima, voluptas impedit provident iusto beatae debitis aut rem! Aliquam soluta voluptatibus eveniet corporis distinctio Cupiditate, ducimus. Magni, eius. Laboriosam expedita sunt ipsam aliquam exercitationem dolor molestiae quis dolores fugiat! Maiores est iusto neque, deleniti iure tempore tenetur cupiditate deserunt Dolorem atque dolor optio odio",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim atque omnis porro cumque optio repellendus minima, voluptas impedit provident iusto ",
   },
   {
     image: school,
@@ -132,7 +132,7 @@ export const education = [
     degree: "CBSE(X),Science with Computer",
     date: "Apr 2018 - Apr 2019",
     Grade: "88%",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim atque omnis porro cumque optio repellendus minima, voluptas impedit provident iusto beatae debitis aut rem! Aliquam soluta voluptatibus eveniet corporis distinctio Cupiditate, ducimus. Magni, eius. Laboriosam expedita sunt ipsam aliquam exercitationem dolor molestiae quis dolores fugiat! Maiores est iusto neque, deleniti iure tempore tenetur cupiditate deserunt Dolorem atque dolor optio odio",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim atque omnis porro cumque optio repellendus minima, voluptas impedit provident iusto ",
   },
 ];
 

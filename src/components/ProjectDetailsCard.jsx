@@ -2,7 +2,7 @@ import React from "react";
 import { useContext } from "react";
 import { AppProvider } from "../context/AppProvider";
 import { FiX } from "react-icons/fi";
-
+import { Link } from "react-router-dom";
 export default function ProjectDetailsCard({ el }) {
   const { handleCard } = useContext(AppProvider);
 
@@ -41,12 +41,16 @@ export default function ProjectDetailsCard({ el }) {
         {el.desc}
       </p>
       <div className="flex flex-row w-full justify-between items-center gap-x-[12px]">
-        <button className="py-[12px] text-[16px] font-poppins text-[#f2f3f4] font-medium flex-1 px-[16px] rounded-[8px] bg-[#1c1e27]">
-          View Code
-        </button>
-        <button className="py-[12px] px-[16px] rounded-[8px] bg-[#854ce6] text-[16px] font-poppins text-[#f2f3f4] font-medium flex-1">
-          View Live App
-        </button>
+        <Link to={el.github} className="flex w-full">
+          <button className="py-[12px] text-[16px] font-poppins text-[#f2f3f4] font-medium flex-1 px-[16px] rounded-[8px] bg-[#1c1e27]">
+            View Code
+          </button>
+        </Link>
+        <Link to={el.projectLink} className="flex w-full">
+          <button className="py-[12px] px-[16px] rounded-[8px] bg-[#854ce6] text-[16px] font-poppins text-[#f2f3f4] font-medium flex-1">
+            View Live App
+          </button>
+        </Link>
       </div>
     </div>
   );

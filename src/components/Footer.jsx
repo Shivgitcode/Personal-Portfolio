@@ -4,16 +4,18 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <div className="flex flex-col justify-around items-center gap-3">
+    <div className="flex flex-col justify-around items-center gap-3 lg:w-[60%] mx-auto">
       <h2 className="font-poppins text-[#854ce6] text-[20px] font-semibold">
         Shivansh Aggarwal
       </h2>
-      <ul className="flex flex-row justify-center w-full gap-[16px] mt-[8px]">
+      <ul className="flex flex-row justify-center w-full gap-[16px] lg:gap-x-[32px] mt-[8px]">
         {navlinks.map((link) => {
           return (
-            <li className="text-[16px] font-poppins font-medium text-[#f2f3f4] cursor-pointer hover:text-[#854ce6] transition-all">
-              {link}
-            </li>
+            <a href={`#${link}`}>
+              <li className="text-[16px] lg:text-[19.2px] font-poppins font-medium text-[#f2f3f4] cursor-pointer hover:text-[#854ce6] transition-all">
+                {link}
+              </li>
+            </a>
           );
         })}
       </ul>

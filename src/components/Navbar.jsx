@@ -30,6 +30,7 @@ export default function Navbar() {
               <li
                 key={indx}
                 className="text-[16px] font-poppins font-semibold text-[#f2f3f4] mb-[16px] cursor-pointer hover:text-[#854ce6] transition-all"
+                onClick={handleClick}
               >
                 {el}
               </li>
