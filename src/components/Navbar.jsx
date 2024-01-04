@@ -49,12 +49,14 @@ export default function Navbar() {
       >
         {navlinks.map((el, indx) => {
           return (
-            <li
-              key={indx}
-              className="text-[16px] font-poppins font-semibold text-[#f2f3f4] cursor-pointer hover:text-[#854ce6] transition-all"
-            >
-              {el}
-            </li>
+            <a href={`#${el}`}>
+              <li
+                key={indx}
+                className="text-[16px] font-poppins font-semibold text-[#f2f3f4] cursor-pointer hover:text-[#854ce6] transition-all"
+              >
+                {el}
+              </li>
+            </a>
           );
         })}
       </ul>

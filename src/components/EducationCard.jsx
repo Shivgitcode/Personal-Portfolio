@@ -40,7 +40,7 @@ export default function EducationCard({ el }) {
       </div>
       <div className=" flex relative -top-3 flex-col justify-start items-center">
         <span className=" p-[4px] rounded-[50%] border-[2px] border-fuchsia-700 my-[11px]"></span>
-        <div className=" min-h-[200px] lg:min-h-[150px] w-[2px] bg-[#854ce6] z-[15] top-0 right-0 flex-1"></div>
+        <div className=" min-h-[150px] lg:min-h-[150px] w-[2px] bg-[#854ce6] z-[15] top-0 right-0 flex-1"></div>
       </div>
     </div>
   );

@@ -6,7 +6,7 @@ export default function Contact() {
       className="flex flex-col  items-center px-[17px] relative lg:w-[60%] mx-auto"
       id="Contact"
     >
-      <h1 className="font-poppins font-semibold text-[32px] lg:text-[42px] w-full text-center mt-[24px] mb-[20px] text-[#f2f3f4]">
+      <h1 className="font-poppins font-semibold text-[32px] lg:text-[42px] w-full text-center mt-[34px] mb-[20px] text-[#f2f3f4]">
         Contact
       </h1>
       <p className="font-poppins font-normal text-[16px] w-full text-center text-[#b1b2b3] lg:max-w-[60%] lg:text-[16px]">
