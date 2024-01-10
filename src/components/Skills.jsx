@@ -3,7 +3,7 @@ import SkillCard from "./SkillCard";
 export default function Skills() {
   return (
     <div
-      className="flex flex-col items-center justify-evenly lg:w-[60%] mx-auto "
+      className="flex flex-col items-center justify-evenly pt-6 lg:w-[60%] mx-auto "
       id="Skills"
     >
       <h1 className="text-[32px] lg:text-[42px] lg:mt-[20px] text-center mt-[12px] text-[#f2f3f4] font-semibold font-poppins ">

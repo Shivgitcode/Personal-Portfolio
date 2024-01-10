@@ -25,7 +25,7 @@ function App() {
         <Skills></Skills>
       </div>
 
-      <div className="text-white bg-[#1C1C27] bg-mygradient relative w-full z-10  pb-[100px] clip-path3 min-h-screen top-10">
+      <div className="text-white bg-[#1C1C27] bg-mygradient relative w-full z-10  pb-[100px] clip-path3 min-h-screen top-10 pt-6">
         <Projects></Projects>
       </div>
       <div

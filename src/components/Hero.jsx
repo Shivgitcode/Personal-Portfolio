@@ -51,6 +51,7 @@ export default function Hero() {
           </Link>
         </button>
       </div>
+      <div className="bg-[#191924] w-full absolute clip-path min-h-[100px] -bottom-[155px] z-50"></div>
     </section>
   );
 }

@@ -10,7 +10,7 @@ html {
 
 @layer utilities {
   .clip-path {
-    clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 70% 95%, 0px 100%);
+    clip-path: polygon(100% 0, 100% 100%, 73% 78%, 0 99%, 0 0);
   }
   .clip-path2 {
     clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 30% 98%, 0px 100%);
