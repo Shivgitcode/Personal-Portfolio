@@ -1,6 +1,7 @@
 import React from "react";
 import { myimage } from "../assets";
 import HeroBgAnimation from "../HeroBgAnimation-20231230T113946Z-001/HeroBgAnimation";
+import { Link } from "react-router-dom";
 import Typed from "react-typed";
 
 export default function Hero() {
@@ -40,8 +41,14 @@ export default function Hero() {
           high-quality results. With a positive attitude and a growth mindset, I
           am ready to make a meaningful contribution and achieve great things.
         </p>
+
         <button className="font-poppins text-white font-medium text-[16px] text-center leading-[32px] rounded-[20px] py-[12px] bg-gradient-to-r from-fuchsia-500 to-purple-500 w-full max-w-[400px] hover:scale-105 transition-all ">
-          Check Resume
+          <Link
+            to="https://drive.google.com/file/d/14GoJYbpfbTuv9yf07UJ7IrERMNoNGobZ/view?usp=sharing"
+            target="_blank"
+          >
+            Check Resume
+          </Link>
         </button>
       </div>
     </section>

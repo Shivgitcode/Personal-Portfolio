@@ -20,7 +20,7 @@ export default function Footer() {
         })}
       </ul>
       <ul className="flex flex-row gap-[32px] mt-[16px]">
-        <Link to={socialmedia[0]}>
+        <Link to={socialmedia[0]} target="_blank">
           <li className="w-[24px] group">
             <FaInstagram
               fontSize={"24px"}
@@ -29,7 +29,7 @@ export default function Footer() {
             ></FaInstagram>
           </li>
         </Link>
-        <Link to={socialmedia[1]}>
+        <Link to={socialmedia[1]} target="_blank">
           <li className="w-[24px] group">
             <FaGithub
               fontSize={"24px"}
@@ -38,7 +38,7 @@ export default function Footer() {
             ></FaGithub>
           </li>
         </Link>
-        <Link to={socialmedia[2]}>
+        <Link to={socialmedia[2]} target="_blank">
           {" "}
           <li className="w-[24px] group">
             <FaLinkedin
@@ -48,7 +48,7 @@ export default function Footer() {
             ></FaLinkedin>
           </li>
         </Link>
-        <Link to={socialmedia[3]}>
+        <Link to={socialmedia[3]} target="_blank">
           <li className="w-[24px]  group">
             <FaTwitter
               fontSize={"24px"}
