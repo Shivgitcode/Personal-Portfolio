@@ -19,7 +19,12 @@ import school from "./12thschool-removebg-preview.jpg";
 import twitter from "./asset 22.svg";
 import linkedin from "./asset 23.svg";
 import instagram from "./asset 24.svg";
-import { FaInstagram } from "react-icons/fa";
+// import { FaInstagram } from "react-icons/fa";
+import docker from "./docker-svgrepo-com.svg";
+import postman from "./postman-icon-svgrepo-com.svg";
+import git from "./git-svgrepo-com.svg";
+import vercel from "./vercel-svgrepo-com.svg";
+import mongo from "./mongodb.svg";
 
 export {
   myimage,
@@ -43,4 +48,9 @@ export {
   twitter,
   instagram,
   linkedin,
+  docker,
+  postman,
+  git,
+  vercel,
+  mongo,
 };

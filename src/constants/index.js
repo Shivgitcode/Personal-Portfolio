@@ -19,6 +19,11 @@ import {
   instagram,
   linkedin,
   twitter,
+  mongo,
+  docker,
+  git,
+  postman,
+  vercel,
 } from "../assets";
 
 export const navlinks = ["About", "Skills", "Projects", "Education"];
@@ -62,8 +67,21 @@ export const skills = [
         name: "Express.js",
         logo: express,
       },
+      {
+        name: "MongoDB",
+        logo: mongo,
+      },
     ],
   },
+  // {
+  //   id: "Languages",
+  //   skill: [
+  //     {
+  //       name:"Go lang",
+
+  //     }
+  //   ],
+  // },
   {
     id: "Others",
     skill: [
@@ -74,6 +92,22 @@ export const skills = [
       {
         name: "VS Code",
         logo: vs,
+      },
+      {
+        name: "Docker",
+        logo: docker,
+      },
+      {
+        name: "Git",
+        logo: git,
+      },
+      {
+        name: "Postman",
+        logo: postman,
+      },
+      {
+        name: "Vercel",
+        logo: vercel,
       },
     ],
   },
