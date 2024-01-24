@@ -3,6 +3,7 @@ import { useContext } from "react";
 import { AppProvider } from "../context/AppProvider";
 import { FiX } from "react-icons/fi";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 export default function ProjectDetailsCard({ el }) {
   const { handleCard } = useContext(AppProvider);
 

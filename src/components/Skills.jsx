@@ -1,5 +1,6 @@
 import { skills } from "../constants";
 import SkillCard from "./SkillCard";
+import { motion } from "framer-motion";
 export default function Skills() {
   return (
     <div
@@ -13,7 +14,7 @@ export default function Skills() {
         Here are some of my skills on which I have been working on for the past
         1 year
       </p>
-      <div className="flex flex-col justify-evenly items-center gap-[30px] lg:flex-row lg:flex-wrap">
+      <div className="flex flex-col justify-evenly items-center gap-[30px] lg:flex-row lg:flex-wrap ">
         {skills.map((el, idx) => {
           return <SkillCard key={el.id} el={el}></SkillCard>;
         })}
