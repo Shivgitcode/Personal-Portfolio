@@ -11,6 +11,12 @@ export function AppProviderData({ children }) {
   const [index, setIndex] = useState(0);
   const project = projects;
   const [showDesc, setShowDesc] = useState(true);
+  const [formdetails, setFormDetails] = useState({
+    email: "",
+    name: "",
+    subject: "",
+    message: "",
+  });
 
   function handleCard(idx) {
     console.log(idx);
@@ -39,6 +45,8 @@ export function AppProviderData({ children }) {
     index,
     showDesc,
     setShowDesc,
+    formdetails,
+    setFormDetails,
   };
 
   return <AppProvider.Provider value={value}>{children}</AppProvider.Provider>;
