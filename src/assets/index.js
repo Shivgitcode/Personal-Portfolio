@@ -25,6 +25,11 @@ import postman from "./postman-icon-svgrepo-com.svg";
 import git from "./git-svgrepo-com.svg";
 import vercel from "./vercel-svgrepo-com.svg";
 import mongo from "./mongodb.svg";
+import next from "./asset 3.png";
+import graphql from "./graphql-svgrepo-com.svg";
+import prisma from "./light-prisma-svgrepo-com.svg";
+import postgres from "./postgresql-svgrepo-com.svg";
+import mysql from "./mysql-logo-svgrepo-com.svg";
 
 export {
   myimage,
@@ -53,4 +58,9 @@ export {
   git,
   vercel,
   mongo,
+  next,
+  graphql,
+  prisma,
+  postgres,
+  mysql,
 };

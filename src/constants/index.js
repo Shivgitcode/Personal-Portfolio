@@ -24,6 +24,11 @@ import {
   git,
   postman,
   vercel,
+  graphql,
+  postgres,
+  mysql,
+  prisma,
+  next,
 } from "../assets";
 
 export const navlinks = ["About", "Skills", "Projects", "Education"];
@@ -54,6 +59,10 @@ export const skills = [
         name: "Material UI",
         logo: materialui,
       },
+      {
+        name: "next js",
+        logo: next,
+      },
     ],
   },
   {
@@ -70,6 +79,22 @@ export const skills = [
       {
         name: "MongoDB",
         logo: mongo,
+      },
+      {
+        name: "GraphQl",
+        logo: graphql,
+      },
+      {
+        name: "Postgres",
+        logo: postgres,
+      },
+      {
+        name: "Mysql",
+        logo: mysql,
+      },
+      {
+        name: "Prisma",
+        logo: prisma,
       },
     ],
   },
