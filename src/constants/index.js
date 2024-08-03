@@ -29,6 +29,11 @@ import {
   mysql,
   prisma,
   next,
+  go,
+  cpp,
+  c,
+  java,
+  redis,
 } from "../assets";
 
 export const navlinks = ["About", "Skills", "Projects", "Education"];
@@ -96,17 +101,34 @@ export const skills = [
         name: "Prisma",
         logo: prisma,
       },
+      {
+        name: "Redis",
+        logo: redis
+      }
     ],
   },
-  // {
-  //   id: "Languages",
-  //   skill: [
-  //     {
-  //       name:"Go lang",
+  {
+    id: "Languages",
+    skill: [
+      {
+        name: "Go lang",
+        logo: go
 
-  //     }
-  //   ],
-  // },
+      },
+      {
+        name: "C++",
+        logo: cpp
+      },
+      {
+        name: "Java",
+        logo: java
+      },
+      {
+        name: "C",
+        logo: c
+      },
+    ],
+  },
   {
     id: "Others",
     skill: [

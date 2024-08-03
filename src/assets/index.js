@@ -30,6 +30,12 @@ import graphql from "./graphql-svgrepo-com.svg";
 import prisma from "./light-prisma-svgrepo-com.svg";
 import postgres from "./postgresql-svgrepo-com.svg";
 import mysql from "./mysql-logo-svgrepo-com.svg";
+import cpp from "./icons8-c++.svg";
+import c from "./icons8-c.svg"
+import java from "./icons8-java.svg"
+import go from "./go-svgrepo-com (1).svg"
+import redis from "./icons8-redis.svg"
+
 
 export {
   myimage,
@@ -63,4 +69,9 @@ export {
   prisma,
   postgres,
   mysql,
+  cpp,
+  c,
+  java,
+  go,
+  redis
 };
