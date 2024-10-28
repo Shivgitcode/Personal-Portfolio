@@ -29,14 +29,13 @@ function App() {
         <Projects></Projects>
       </div>
       <div
-        className={`${
-          display ? "fixed w-screen h-screen bg-black/80 top-0 z-50" : "hidden"
-        } `}
+        className={`${display ? "fixed w-screen h-screen bg-black/80 top-0 z-50" : "hidden"
+          } `}
       >
         <ProjectDetails></ProjectDetails>
       </div>
 
-      <div className="bg-[#1c1c27]  py-[36px] pb-[100px] relative -top-[26px]   w-full min-h-screen bg-mygradient clip-path2">
+      <div className="bg-[#1c1c27]  py-[36px] pb-[100px] relative -top-[26px] flex flex-col    w-full min-h-screen bg-mygradient clip-path2">
         <Education></Education>
         <Contact></Contact>
       </div>

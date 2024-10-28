@@ -25,6 +25,14 @@ import postman from "./postman-icon-svgrepo-com.svg";
 import git from "./git-svgrepo-com.svg";
 import vercel from "./vercel-svgrepo-com.svg";
 import mongo from "./mongodb.svg";
+import postgres from "./postgresql-svgrepo-com.svg"
+import prisma from "./prisma-svgrepo-com.svg"
+import redis from "./redis-svgrepo-com.svg"
+import nextjs from "./next-js-svgrepo-com (2).svg"
+import drizzle from "./drizzle.png"
+import cloudflare from "./cloudflare-svgrepo-com.svg"
+import nextauth from "./next auth.png"
+import shadcn from "./shadcn.png"
 
 export {
   myimage,
@@ -40,6 +48,7 @@ export {
   tailwind,
   ts,
   passwordGenerator,
+  nextauth,
   appleclone,
   testimonial,
   college,
@@ -53,4 +62,12 @@ export {
   git,
   vercel,
   mongo,
+  postgres,
+  prisma,
+  nextjs,
+  redis,
+  drizzle,
+  cloudflare,
+  shadcn
+
 };

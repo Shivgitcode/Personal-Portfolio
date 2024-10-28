@@ -3,7 +3,7 @@ import EducationCard from "./EducationCard";
 export default function Education() {
   return (
     <div
-      className="flex flex-col justify-between w-full h-screen items-center px-[17px] lg:w-[60%] mx-auto mb-[5px] lg:mb-[60px]"
+      className="flex flex-col justify-between w-full items-center px-[17px] lg:w-[60%] mx-auto mb-[5px] lg:mb-[60px]"
       id="Education"
     >
       <h2 className="font-poppins font-semibold text-[32px] lg:text-[42px] w-full text-center mt-[24px] mb-[24px] text-[#f2f3f4] lg:mt-[34px]">

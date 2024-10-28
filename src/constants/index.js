@@ -24,6 +24,14 @@ import {
   git,
   postman,
   vercel,
+  prisma,
+  postgres,
+  drizzle,
+  nextjs,
+  redis,
+  cloudflare,
+  nextauth,
+  shadcn,
 } from "../assets";
 
 export const navlinks = ["About", "Skills", "Projects", "Education"];
@@ -54,6 +62,14 @@ export const skills = [
         name: "Material UI",
         logo: materialui,
       },
+      {
+        name: "Next Js",
+        logo: nextjs
+      },
+      {
+        name: "Shadcn UI",
+        logo: shadcn
+      }
     ],
   },
   {
@@ -71,6 +87,33 @@ export const skills = [
         name: "MongoDB",
         logo: mongo,
       },
+      {
+        name: "Prisma Orm",
+        logo: prisma
+
+      },
+      {
+        name: "Postgres",
+        logo: postgres
+      },
+      {
+        name: "Drizzle ORM",
+        logo: drizzle
+      },
+      {
+        name: "Redis",
+        logo: redis
+      },
+      {
+        name: "Cloudflare workers",
+        logo: cloudflare
+      },
+      {
+        name: "Next Auth",
+        logo: nextauth
+      }
+
+
     ],
   },
   // {
