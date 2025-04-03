@@ -25,49 +25,67 @@ import postman from "./postman-icon-svgrepo-com.svg";
 import git from "./git-svgrepo-com.svg";
 import vercel from "./vercel-svgrepo-com.svg";
 import mongo from "./mongodb.svg";
-import postgres from "./postgresql-svgrepo-com.svg"
-import prisma from "./prisma-svgrepo-com.svg"
-import redis from "./redis-svgrepo-com.svg"
-import nextjs from "./next-js-svgrepo-com (2).svg"
-import drizzle from "./drizzle.png"
-import cloudflare from "./cloudflare-svgrepo-com.svg"
-import nextauth from "./next auth.png"
-import shadcn from "./shadcn.png"
-
+import postgres from "./postgresql-svgrepo-com.svg";
+import prisma from "./prisma-svgrepo-com.svg";
+import redis from "./redis-svgrepo-com.svg";
+import nextjs from "./next-js-svgrepo-com (2).svg";
+import drizzle from "./drizzle.png";
+import cloudflare from "./cloudflare-svgrepo-com.svg";
+import nextauth from "./next auth.png";
+import shadcn from "./shadcn.png";
+import aws from "./aws-svgrepo-com.svg";
+import c from "./c.svg";
+import kubernetes from "./kubernetes-svgrepo-com.svg";
+import go from "./go-svgrepo-com.svg";
+import mysql from "./mysql-svgrepo-com.svg";
+import hono from "./hono.svg";
+import trpc from "./trpc.svg";
+import java from "./java-svgrepo-com.svg";
+import tweetx from "./tweetx.png";
+import astrocode from "./astrocode.png";
 export {
-  myimage,
-  css,
-  html,
-  js,
-  react,
-  materialui,
-  github,
-  vs,
-  nodejs,
-  express,
-  tailwind,
-  ts,
-  passwordGenerator,
-  nextauth,
-  appleclone,
-  testimonial,
-  college,
-  highSchool,
-  school,
-  twitter,
-  instagram,
-  linkedin,
-  docker,
-  postman,
-  git,
-  vercel,
-  mongo,
-  postgres,
-  prisma,
-  nextjs,
-  redis,
-  drizzle,
-  cloudflare,
-  shadcn
-
+	myimage,
+	css,
+	html,
+	js,
+	react,
+	materialui,
+	github,
+	vs,
+	nodejs,
+	express,
+	tailwind,
+	ts,
+	passwordGenerator,
+	nextauth,
+	appleclone,
+	testimonial,
+	college,
+	highSchool,
+	school,
+	twitter,
+	instagram,
+	linkedin,
+	docker,
+	postman,
+	git,
+	vercel,
+	mongo,
+	postgres,
+	prisma,
+	nextjs,
+	redis,
+	drizzle,
+	cloudflare,
+	shadcn,
+	hono,
+	trpc,
+	mysql,
+	kubernetes,
+	aws,
+	c,
+	go,
+	java,
+	astrocode,
+	tweetx,
 };
